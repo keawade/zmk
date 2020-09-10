@@ -1,0 +1,16 @@
+# Copyright (c) 2020 Keith Wade
+# SPDX-License-Identifier: MIT
+
+if SHIELD_KEABOARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Keaboard Left"
+
+endif
+
+if SHIELD_KEABOARD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Keaboard Right"
+
+endif
